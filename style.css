@@ -5,6 +5,20 @@ body{
 .nav-item{
     color: black;
 }
-.category-title-area{
-    margin-top: 100px;
+.container{
+    margin-top: 20px;
+    border: 1px solid red;
 }
+.slider-text h1{
+    font-size: 45px;
+}
+.slider-text p{
+    color: dimgray;
+}
+.buy-button{
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+    

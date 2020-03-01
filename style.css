@@ -2,12 +2,14 @@ body{
     margin: 0px;
     font-family: 'Rubik' ;
 }
+p{
+    color: dimgray;
+}
 .nav-item{
     color: black;
 }
 .container{
     margin-top: 20px;
-    border: 1px solid red;
 }
 .slider-text h1{
     font-size: 45px;
@@ -21,4 +23,63 @@ body{
     padding: 10px 20px;
     border-radius: 5px;
 }
+.product-area-title{
+    font-size: 30px;
+    color: black;
+    margin-top: 120px;
+}
+.product-area-title a{
+    color: orange;
+}
+.product-display{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px dimgray;
+    text-align: center;
     
+}
+.card img{
+    padding: 40px 60px 20px 40px;
+}
+.card h5{
+    font-size: 40px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#bottom-image-left{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 25px;
+    margin-left: 60px;
+}
+.bottom-image-right{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 5px 5px 20px lightgray;
+    padding: 25px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+#category-area-title{
+    text-align: center;
+    margin-top: 100px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+}
